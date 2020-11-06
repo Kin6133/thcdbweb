@@ -1,0 +1,122 @@
+@font-face
+  {
+    font-family: 'supermarket';
+    src: url('fonts/supermarket.eot');
+    src: 
+        url('fonts/supermarket.ttf')
+        local('supermarket'),
+        local('Supermarket'),
+        format('truetype');
+    src: 
+        url('fonts/supermarket.otf')
+        local('supermarket'),
+        local('Supermarket'),
+        format('opentype');
+  }
+*
+    {
+        font-family: 'supermarket';
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+body
+    {
+        background-color: #08488c;
+        background-size: cover;
+        background-position: center;
+    }
+.menu
+    {
+        background: #1C74D4;
+        text-align: left;
+    }
+.menu ul
+    {
+        display: inline-flex;
+        list-style: none;
+        color: white;
+    }
+.menu ul li
+    {
+        width: 150px;
+        margin: 15px;
+        padding: 15px;
+    }
+.menu ul li a
+    {
+        text-decoration: none;
+        color: white;
+    }
+.act, .menu ul li:hover
+    {
+        background: darkblue;
+        border-radius: 3px;
+    }
+.img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        width: 75px;
+        height: 75px;
+    }
+.sel
+    {
+        display: none;
+    }
+.menu ul li:hover .sel
+    {
+        display: block;
+        position: absolute;
+        background: darkblue;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+.menu ul li:hover .sel ul
+    {
+        display: block;
+        margin: 10px;
+    }
+.menu ul li:hover .sel ul li
+    {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+table 
+    {
+        font-family: supermarket;
+        border-collapse: collapse;
+        width: 100%;
+    }
+td, th 
+    {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font-size: 15pt;
+    }
+tr:nth-child(even) 
+    {
+        background-color: white;
+    }
+tr:nth-child(odd)
+    {
+        background-color: #dddddd;
+    }
+.comp
+    {
+        text-align: center;
+    }
+.ev
+    {
+        background-color: white;
+        background-size: 10px;
+        text-align: center;
+    }
