@@ -16,6 +16,7 @@
 *
     {
         font-family: 'supermarket';
+        color: white;
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -88,4 +89,51 @@ body
         background: transparent;
         border-radius: 0;
         text-align: left;
+    }
+h1, h2
+    {
+        text-align: center;
+    }
+.main
+    {
+        font-style: normal;
+    }
+table 
+    {
+        font-family: supermarket;
+        border-collapse: collapse;
+        width: 100%;
+        color: black;
+    }
+tr, td, th 
+    {
+        color: black;
+    }
+td, th 
+    {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font-size: 15pt;
+    }
+tr:nth-child(even) 
+    {
+        background-color: #dddddd;
+    }
+tr:nth-child(odd)
+    {
+        background-color: white;
+    }
+.wca
+    {
+        width: 25px;
+        height: 25px;
+    }
+.spe
+    {
+        text-align: center;
+    }
+th
+    {
+        text-align: center;
     }
