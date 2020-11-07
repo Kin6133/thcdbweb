@@ -16,19 +16,19 @@ function enter()
     var pw = document.getElementById("pw");
     var form = document.getElementById("form");
     var html = document.getElementById("html");
-    if (us.value == "KinCubing" || us.value == "phakhinthon@gmail.com" || us.value == "2018PRON02")
+    if (us.value == "KinCubing")
     {
-        if (pw.value == "KinCubingAdmin30042549" && html.lang == "en")
+        if (pw.value == "KinCubing30042549" && html.lang == "en")
         {
-            form.action = "welcome-en.php";
+            form.action = "user-en.php";
         }
-        else if (pw.value == "KinCubingAdmin30042549" && html.lang == "th")
+        else if (pw.value == "KinCubing30042549" && html.lang == "th")
         {
-            form.action = "welcome-th.php";
+            form.action = "user-th.php";
         }
-        else if (pw.value == "KinCubingAdmin30042549" && html.lang == "jp")
+        else if (pw.value == "KinCubing30042549" && html.lang == "jp")
         {
-            form.action = "welcome-jp.php";
+            form.action = "user-jp.php";
         }
         else
         {
