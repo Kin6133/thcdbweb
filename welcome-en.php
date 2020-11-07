@@ -4,6 +4,6 @@
         <title>Welcome Page</title>
     </head>
     <body>
-        <h1>WCA ID : <?php echo $_POST["id"]; ?></h1><br>
+        <h1>WCA ID : <?php echo $_GET["id"]; ?></h1>
     </body>
 </html>
