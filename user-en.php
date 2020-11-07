@@ -21,7 +21,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="act"><?php echo $_GET["id"]; ?><a href="index-en.html">Logout</a></li>
+                <li class="act"><?php echo $_GET["id"]; ?><a href="index-en.html"> Logout</a></li>
             </ul>
         </div>
         <h1>Username : <?php echo $_GET["id"]; ?></h1>
