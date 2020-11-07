@@ -1,14 +1,14 @@
 @font-face
   {
     font-family: 'supermarket';
-    src: url('fonts/supermarket.eot');
+    src: url('../Fonts/supermarket.eot');
     src: 
-        url('fonts/supermarket.ttf')
+        url('../Fonts/supermarket.ttf')
         local('supermarket'),
         local('Supermarket'),
         format('truetype');
     src: 
-        url('fonts/supermarket.otf')
+        url('../Fonts/supermarket.otf')
         local('supermarket'),
         local('Supermarket'),
         format('opentype');
@@ -116,18 +116,23 @@ td, th
         padding: 8px;
         font-size: 15pt;
     }
-tr:nth-child(even) 
+tr:nth-child(even)
     {
-        background-color: #dddddd;
+        background-color: #ffffff;
     }
 tr:nth-child(odd)
     {
-        background-color: white;
+        background-color: #ffffff;
     }
 .wca
     {
         width: 25px;
         height: 25px;
+    }
+.year
+    {
+        text-align: center;
+        background-color: #dddddd;
     }
 .spe
     {
@@ -136,4 +141,8 @@ tr:nth-child(odd)
 th
     {
         text-align: center;
+    }
+.row
+    {
+        background-color: grey;
     }
