@@ -18,17 +18,9 @@ function enter()
     var html = document.getElementById("html");
     if (us.value == "KinCubing")
     {
-        if (pw.value == "KinCubing30042549" && html.lang == "en")
+        if (pw.value == "KinCubing30042549")
         {
-            form.action = "user-en.php";
-        }
-        else if (pw.value == "KinCubing30042549" && html.lang == "th")
-        {
-            form.action = "user-th.php";
-        }
-        else if (pw.value == "KinCubing30042549" && html.lang == "jp")
-        {
-            form.action = "user-jp.php";
+            form.action = "user.php";
         }
         else
         {
