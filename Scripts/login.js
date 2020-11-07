@@ -32,13 +32,13 @@ function enter()
         }
         else
         {
-            form.action = "index-en.html";
+            form.action = "login-en.html";
             alert("Wrong password or username.");
         }
     }
     else
     {
-        form.action = "index-en.html";
+        form.action = "login-en.html";
         alert("Wrong password or username.");
     }
 }
