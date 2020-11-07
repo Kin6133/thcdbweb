@@ -20,7 +20,6 @@ function enter()
     {
         if (pw.value == "KinCubingAdmin30042549" && html.lang == "en")
         {
-            us.name = "KinCubing";
             form.action = "welcome-en.php";
         }
         else if (pw.value == "KinCubingAdmin30042549" && html.lang == "th")
