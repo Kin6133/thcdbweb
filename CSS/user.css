@@ -1,0 +1,100 @@
+@font-face
+  {
+    font-family: 'supermarket';
+    src: url('../Fonts/supermarket.eot');
+    src: 
+        url('../Fonts/supermarket.ttf')
+        local('supermarket'),
+        local('Supermarket'),
+        format('truetype');
+    src: 
+        url('../Fonts/supermarket.otf')
+        local('supermarket'),
+        local('Supermarket'),
+        format('opentype');
+  }
+*
+    {
+        font-family: 'supermarket';
+        color: white;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+body
+    {
+        background-color: #08488c;
+        background-size: cover;
+        background-position: center;
+    }
+.menu
+    {
+        background: #1C74D4;
+        text-align: left;
+    }
+.menu ul
+    {
+        display: inline-flex;
+        list-style: none;
+        color: white;
+    }
+.menu ul li
+    {
+        width: 150px;
+        margin: 15px;
+        padding: 15px;
+    }
+.menu ul li a
+    {
+        text-decoration: none;
+        color: white;
+    }
+.act, .menu ul li:hover
+    {
+        background: darkblue;
+        border-radius: 3px;
+    }
+.img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        width: 75px;
+        height: 75px;
+    }
+.sel
+    {
+        display: none;
+    }
+.menu ul li:hover .sel
+    {
+        display: block;
+        position: absolute;
+        background: darkblue;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+.menu ul li:hover .sel ul
+    {
+        display: block;
+        margin: 10px;
+    }
+.menu ul li:hover .sel ul li
+    {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+h1, h2
+    {
+        text-align: center;
+    }
+.main
+    {
+        font-style: normal;
+    }
