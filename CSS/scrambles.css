@@ -1,17 +1,7 @@
 @font-face
   {
-    font-family: 'supermarket';
-    src: url('fonts/supermarket.eot');
-    src: 
-        url('fonts/supermarket.ttf')
-        local('supermarket'),
-        local('Supermarket'),
-        format('truetype');
-    src: 
-        url('fonts/supermarket.otf')
-        local('supermarket'),
-        local('Supermarket'),
-        format('opentype');
+    font-family: supermarket;
+    src: url('../Fonts/supermarket.woff');
   }
 *
     {
