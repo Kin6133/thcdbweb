@@ -120,7 +120,22 @@ tr:nth-child(odd)
         background-size: 10px;
         text-align: center;
     }
-h1:link h1:visited h1:hover
+h1
+    {
+        color: white;
+        text-align: center;
+    }
+h1:link
+    {
+        color: white;
+        text-align: center;
+    }
+h1:visited
+    {
+        color: white;
+        text-align: center;
+    }
+h1:hover
     {
         color: white;
         text-align: center;
