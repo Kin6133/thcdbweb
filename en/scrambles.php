@@ -5,7 +5,7 @@
     <?php 
         if ($compid == "THC2014") 
         {
-           include "thc2014.html";
+           include("thc2014.html");
         }
     ?>
 </html>
