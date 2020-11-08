@@ -120,3 +120,8 @@ tr:nth-child(odd)
         background-size: 10px;
         text-align: center;
     }
+h1
+    {
+        color: white;
+        text-align: center;
+    }
