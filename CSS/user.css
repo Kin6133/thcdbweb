@@ -98,3 +98,8 @@ h1, h2
     {
         font-style: normal;
     }
+.flag
+    {
+        width: 20%;
+        height: 20%;
+    }
