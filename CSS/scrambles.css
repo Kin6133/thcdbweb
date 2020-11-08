@@ -125,17 +125,17 @@ h1
         color: white;
         text-align: center;
     }
-h1:link
+a:link
     {
         color: white;
         text-align: center;
     }
-h1:visited
+a:visited
     {
         color: white;
         text-align: center;
     }
-h1:hover
+a:hover
     {
         color: white;
         text-align: center;
