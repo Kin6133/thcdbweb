@@ -102,13 +102,17 @@ td, th
         padding: 8px;
         font-size: 15pt;
     }
+th
+    {
+        background-color: #dddddd;
+    }
 tr:nth-child(even) 
     {
         background-color: white;
     }
 tr:nth-child(odd)
     {
-        background-color: #dddddd;
+        background-color: white;
     }
 .comp
     {
