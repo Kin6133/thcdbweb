@@ -34,7 +34,7 @@ body
         margin: 15px;
         padding: 15px;
     }
-.menu ul li 
+.menu ul li a
     {
         text-decoration: none;
         color: white;
