@@ -142,7 +142,11 @@ th
         width: 20%;
         height: 20%;
     }
-a
+.link
     {
         color: blue;
+    }
+h1
+    {
+        background-color: #08488c;
     }
