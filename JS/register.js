@@ -32,8 +32,8 @@ function process()
     var link = document.getElementById("button");
     if (pw.value == rpw.value)
     {
-        pass = btoa(pw);
-        link.href = "register.php?username=" + user + "&password=" + pass;
+        pass = btoa(pw.value);
+        link.href = "register.php?username=" + user.value + "&password=" + pass;
     }
     else
     {
