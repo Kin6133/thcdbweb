@@ -33,7 +33,7 @@ function process()
     if (pw.value == rpw.value)
     {
         pass = btoa(pw.value);
-        link.href = "register.php?username=" + user.value + "&password=" + pass;
+        link.href = "profile.php?username=" + user.value + "&password=" + pass;
     }
     else
     {
