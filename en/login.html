@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="../CSS/login.css">
+        <link rel="shortcut icon" href="../Images/ThailandCube.ico"/>
         <title>Login Page</title>
     </head>
     <body>
-        <label for="username">Username : </label>
-        <input type="text" name="username" id="user"><br>
-        <label for="password">Password : </label>
-        <input type="password" name="password" id="pw"><br>
-        Show Password<input type="checkbox" onclick="check()"><br>
-        <button type="submit" onclick="process()"><a id="log" href="login.html">Login</a></button>
+        <div class="menu">
+            <ul>
+                <img src="../Images/thailandcube.png" class="img">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="halloffame.html">Hall of Fame</a></li>
+                <li><a href="scrambles.php">Scrambles</a></li>
+                <li><a href="facts.html">ThailandCube Facts</a></li>
+                <li>Select Language
+                    <div class="sel">
+                        <ul>
+                            <li><a href="../en/register.html"><img class="flag" src="../Images/UK Flag.png">English (English)</a></li>
+                            <li><a href="../th/register.html"><img class="flag" src="../Images/Thailand Flag.png">Thai (ภาษาไทย)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="act"><a href="login.html">Login</a> | <a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <h1>
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="user"><br>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="pw"><br>
+            Show Password<input type="checkbox" onclick="check()"><br>
+            <button class="logb" type="submit" onclick="process()"><a class="log" id="log" href="login.html">Login</a></button>
+        </h1>
         <script src="../JS/login.js">
         </script>
     </body>
