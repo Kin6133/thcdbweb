@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/scrambles.css">
+        <link rel="shortcut icon" href="../Images/ThailandCube.ico"/>
+        <title>Scrambles</title>
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <img src="../Images/thailandcube.png" class="img">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="halloffame.html">Hall of Fame</a></li>
+                <li class="act"><a href="scrambles.php">Scrambles</a></li>
+                <li><a href="facts.html">ThailandCube Facts</a></li>
+                <li>Select Language
+                    <div class="sel">
+                        <ul>
+                            <li><a href="../en/index.html"><img class="flag" src="../Images/UK Flag.png">English (English)</a></li>
+                            <li><a href="../th/index.html"><img class="flag" src="../Images/Thailand Flag.png">Thai (ภาษาไทย)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="login.html">Login</a> | <a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <h1>Note : Events are ordered by competitions' schedules.</h1>
+        <h1>
+            <form action="scrambles.php">
+                <select name="compid">
+                    <option>-Select the competition-</option>
+                    <option value="FMCASIA2019">FMC Asia 2019</option>
+                    <option value="FMCASIA2018">FMC Asia 2018</option>
+                    <option value="THC2014">Thailand Championship 2014</option>
+                </select>
+                <input type="submit">
+            </form>
+        </h1>
+    </body>
+</html>
