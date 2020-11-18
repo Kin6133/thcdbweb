@@ -9,6 +9,14 @@ elseif ($event == "222")
 {
     include "scr222.html";
 }
+elseif ($event == "fmc")
+{
+    include "scrfmc.html";
+}
+elseif ($event == "oh")
+{
+    include "scroh.html";
+}
 elseif ($event == "clock")
 {
     include "scrclock.html";
