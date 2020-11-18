@@ -21,4 +21,8 @@ elseif ($event == "pyra")
 {
     include "scrpyra.html";
 }
+elseif ($event == "skewb")
+{
+    include "scrskewb.html";
+}
 ?>
