@@ -16,6 +16,7 @@
     </h1>
     <?php 
         $gotcomp = $_GET["compid"];
+        $mbld = $_GET["scr"];
         if ($gotcomp == "THC2014") 
         {
            include("thc2014.html");
@@ -31,6 +32,10 @@
         elseif ($gotcomp == "NRSINGLE")
         {
             include("nrsingle.html");
+        }
+        if ($mbld == "MBLD")
+        {
+            include("preedambldnr.html");
         }
     ?>
 </html>
