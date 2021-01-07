@@ -1,11 +1,11 @@
 @font-face
-    {
-        font-family: supermarket;
-        src: url('../Fonts/supermarket.woff');
-    }
+  {
+    font-family: sukhumvit;
+    src: url('../Fonts/skv.woff');
+  }
 *
     {
-        font-family: supermarket;
+        font-family: sukhumvit;
         color: white;
         padding: 0;
         margin: 0;
